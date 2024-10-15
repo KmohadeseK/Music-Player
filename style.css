@@ -2,9 +2,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 :root {
-    --purple: #3747f6;
+    --purple: #ca37f6;
     --white: #fff;
-    --shadow:box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; ;
 }
 
 @font-face {
@@ -22,7 +21,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: #333;
+    background-image:url(img/bgground.jpg) ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +30,7 @@
 
 .music-player {
     border-radius: 2rem;
-    background: #6f61ff;
+    background: #6e61fff1;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
@@ -51,7 +50,7 @@ nav .circle {
     height: 40px;
     line-height: 33px;
     background: var(--purple);
-    color: var(--white);
+    color: #181717;
     font-size: 22px;
 }
 
