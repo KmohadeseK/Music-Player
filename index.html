@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </script>
+</head>
+
+<body>
+    <!-- Container [START] -->
+    <div class="container">
+        <!-- Music Player [START] -->
+        <div class="music-player">
+            <!-- Nav [START] -->
+            <nav>
+                <div class="circle">
+                    <i class="bi bi-chevron-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="bi bi-list"></i>
+                </div>
+            </nav>
+            <!-- Nav [END] -->
+
+            <img src="img/1696792426411.jpg" class="img-sara" alt="">
+            <h1>Rush</h1>
+            <p>Ayra Star (SARA'H COVER)</p>
+
+            <audio id="song">
+                <source src="SONG/sarahrush-320.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <!-- Control [START] -->
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playePuase()"><i class="fa-solid fa-play" id="ctrIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+            <!-- Control [END] -->
+        </div>
+        <!-- Music Player [END] -->
+
+    </div>
+    <!-- Container [END] -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
