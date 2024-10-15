@@ -2,9 +2,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 :root {
-    --purple: #8731b6;
+    --purple: #3747f6;
     --white: #fff;
-    --shadow: rgba(161, 66, 220, 0.603);
+    --shadow:box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px; ;
 }
 
 @font-face {
@@ -30,13 +30,15 @@
 }
 
 .music-player {
-    background: #eaac6a;
+    border-radius: 2rem;
+    background: #6f61ff;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
 }
 
 nav {
+    
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -44,34 +46,34 @@ nav {
 
 nav .circle {
     border-radius: 50%;
+    box-shadow: rgb(0, 0, 0) 0px 1px 4px, rgb(0, 0, 0) 0px 0px 0px 3px;
     width: 40px;
     height: 40px;
     line-height: 33px;
     background: var(--purple);
     color: var(--white);
     font-size: 22px;
-    box-shadow: 0 5px 10px var(--shadow);
 }
 
 .img-sara {
     width: 220px;
     border-radius: 300px;
-    border: 10px dotted var(--white);
-
-    box-shadow: 0 4px 8px 1px var(--shadow);
+    border: 10px dashed var(--white);
+    box-shadow: rgb(0, 0, 0) 0px 1px 4px, rgb(0, 0, 0) 0px 0px 0px 3px;
 
 }
 
 .music-player h1 {
     font-size: 24px;
     font-weight: 800;
-    color: #333;
+    color: #f3f2f2;
     margin-top: 20px;
+    
 }
 
 .music-player {
     font-size: 16px;
-    color: #333;
+    color: #f3f2f2;
 }
 
 #progress {
@@ -110,7 +112,7 @@ nav .circle {
     align-items: center;
     border-radius: 50%;
     color: var(--purple);
-    box-shadow: 0 4px 16px var(--shadow);
+    box-shadow: rgb(0, 0, 0) 0px 1px 4px, rgb(0, 0, 0) 0px 0px 0px 3px;
     cursor: pointer;
 }
 
