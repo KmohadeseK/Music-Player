@@ -50,8 +50,9 @@ nav .circle {
     height: 40px;
     line-height: 33px;
     background: var(--purple);
-    color: #181717;
+    color: #f3f2f2;
     font-size: 22px;
+    font-weight: bold;
 }
 
 .img-sara {
